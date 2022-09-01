@@ -11,6 +11,12 @@ const student = {
             post: 'Kumira',
             upzilla: 'Sitakunda',
             zilla: 'Chattogram',
+        },
+        {
+            school: 'Masajidda High School',
+            college: 'Latifa Siddque Degree College',
+            degree: 'Govt. City College Chittagong',
+            programming: 'Programming Hero'
         }
     ],
     homeVillage: function (){
@@ -18,6 +24,13 @@ const student = {
     },
     forFamily: function(amuount, medicine){
        return this.salary = this.salary - amuount - medicine;
+    },
+    friends: {
+        sabbir: {job: 'dipo manager'},
+        tushar: {job: 'business man'},
+        akib: {job: 'diller'},
+        foysal: {job: 'superviser'},
+        ratul: {job: 'lead manager at programming hero'}
     }
 };
 // console.log(student);
