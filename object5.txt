@@ -1,0 +1,10 @@
+* ৫. জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। 
+
+
+---forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.
+
+---map() executes the same code on every element in an array and returns a new array with the updated elements.
+
+---filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that retturn truhy for the criteria.
+
+---The find() method is used to find all the descendant elements of the selected element. It finds the element in the DOM tree by traversing through the root to leaf.
