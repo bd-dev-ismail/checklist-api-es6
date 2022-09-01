@@ -15,8 +15,6 @@ const student = {
     {
       school: "Masajidda High School",
       college: "Latifa Siddque Degree College",
-      degree: "Govt. City College Chittagong",
-      programming: "Programming Hero",
     },
   ],
   homeVillage: function () {
@@ -26,15 +24,11 @@ const student = {
     return (this.salary = this.salary - amuount - medicine);
   },
   friends: {
-    sabbir: { job: "dipo manager" },
+    sabbir: { job: "team manager" },
     tushar: { job: "business man" },
-    akib: { job: "diller" },
-    foysal: { job: "superviser" },
-    ratul: { job: "lead manager at programming hero" },
+    akib: { job: "singer" },
+    foysal: { job: "shopkipper" },
+    ratul: { job: "magician" },
   },
 };
-const {friends, address} = student;
-const {sabbir, tushar, akib, foysal, ratul} = friends;
-let gram = 'something';
-const userAddress = `${gram} is ${ratul} is ${address[1]}`;
-console.log(userAddress);
+const tString = `Ismail 5000 true sabbir school`;
